@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alone 24</title>
+    <link rel="stylesheet" href="/OWN-page/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <nav class="normal-nav">
+            <div class="left-nav">
+                <span>ALONE 24</span>
+            </div>
+            <div class="right-nav">
+                <ul class="nav-content">
+                    <li>HOME</li>
+                    <li>CONTENT</li>
+                    <li>ABOUT US</li>
+                    <li>SHOPPING</li>
+                    <li>CONTACT US</li>
+                </ul>
+            </div>
+        </nav>
+
+        <nav class="media-nav">
+            <div class="nav-left">
+                <button id="menubtn" style="background-color: white; border: none;" onclick="openmenu()"><i class="fa-solid fa-bars" style="font-size: 30px"></i></button>
+                <button id="closebtn" style="background-color: white; border: none; display: none;" onclick="closemenu()"><i class="fa fa-close" style="font-size: 30px"></i></button>
+            </div>
+            
+            <div class="center-nav" id="centernav">
+                <span>ALONE 24</span>
+            </div>
+            <div class="nav-search-box" id="searchtext">
+                <input type="text" placeholder="Type To Search">
+            </div>
+            <div class="nav-search">
+                <button id="searchbtn" style="cursor: pointer; background-color: white; border: none;" onclick="opensearch()"><i class="fa-solid fa-magnifying-glass" style="font-size: 30px"></i></button>
+                <button id="searchclosebtn" style="background-color: white; border: none; display: none;" onclick="closesearch()"><i class="fa fa-close" style="font-size: 30px"></i></button>
+            </div>
+        </nav>
+        <div class="media-nav-left"  id="mininav">
+            <ul class="nav-content2">
+                <li>HOME</li>
+                <li>CONTENT</li>
+                <li>ABOUT US</li>
+                <li>SHOPPING</li>
+                <li>CONTACT US</li>
+            </ul>
+        </div>
+    </header>
+    
+    <main id="main">
+        <div class="contents">
+            <div class="top-image">
+                <img src="/OWN-page/images/ed526a8a93187d87fb49af5dd36c806e.jpg">
+            </div>
+            <div class="nav2">
+                <ul class="nav2-content">
+                    <li>HOME</li>
+                    <li>GAMES</li>
+                    <li>VIDEOS</li>
+                    <li>MOVIES</li>
+                    <li>SHOPPING</li>
+                    <li>PRACTICAL</li>
+                    <li>LYRICS</li>
+                    <li>AIRDROPS</li>
+                    <li>MUSIC</li>
+                    <li>STUDY</li>
+                    <li>SOCIAL</li>
+                    <li>HELP</li>
+                    <li>PRIVACY</li>
+                </ul>
+            </div>
+            <div class="nav3">
+                <ul class="nav3-content">
+                    <li>HOME</li>
+                    <li>GAMES</li>
+                    <li>VIDEOS</li>
+                    <li>MOVIES</li>
+                    <li>SHOPPING</li>
+                    <li>PRACTICAL</li>
+                    <li>LYRICS</li>
+                    <li class="dropdown">More...
+                        <ul class="nav3-dropdown">
+                            <li>AIRDROPS</li>
+                            <li>MUSIC</li>
+                            <li>STUDY</li>
+                            <li>SOCIAL</li>
+                            <li>HELP</li>
+                            <li>PRIVACY</li>    
+                        </ul>
+                    </li>
+                    
+                </ul>
+            </div>
+            <div class="nav4">
+                <div class="nav4-left">
+                    <button id="openmenu2" onclick="openmenu2()">Menu</button>
+                    <button id="menu2closebtn" style="background-color: white; border: none; display: none;" onclick="closemenu2()"><i class="fa fa-close" style="font-size: 12px"></i></button>
+                </div>
+                <div class="nav4-right">
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-whatsapp"></i>
+                </div>
+            </div>
+            <div class="menu2" id="minimenu2">
+                <ul>
+                    <li>GAMES</li>
+                    <li>MOVIES</li>
+                    <li>ANIME</li>
+                    <li>SONGS</li>
+                    <li>VIDEOS</li>
+                    <li>HORROR</li>
+                    <li>HACKS</li>
+                </ul>
+            </div>
+            <div class="content-area">
+                <div class="right-content-area">
+                    <div class="content">
+                        <div class="content-left">
+                            <div class="content-image">
+                                <a href="#">
+                                <img src="/OWN-page/images/images.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="content-right">
+                            <div class="content-title">
+                                <span>
+                                    <a href="#">
+                                        GRAND THEFT AUTO IV
+                                    </a>
+                                </span>
+                            </div>
+                            <div class="content-description">
+                                <span>
+                                    Grand Theft Auto IV is a 2008 action-adventure game developed by Rockstar North and published by Rockstar Games. It is the sixth main entry in the Grand Theft Auto series, following 2004's Grand Theft Auto: San Andreas, and the eleventh entry overall. Set in the fictional Liberty City, based on New York City, the single-player story follows Eastern European war veteran Niko Bellic and his attempts to escape his past while under pressure from high-profile criminals. The open world design lets players freely roam Liberty City, consisting of three main islands, and the neighbouring state of Alderney, which is based on New Jersey.
+
+The game is played from a third-person perspective and its world is navigated on foot and by vehicle. Throughout the single-player mode, players control Niko Bellic. An online multiplayer mode is also included with the game, allowing up to 32 players to engage in both cooperative and competitive gameplay in a recreation of the single-player setting.[b] Two expansion packs were later released for the game, The Lost and Damned and The Ballad of Gay Tony, which both feature new plots that are interconnected with the main Grand Theft Auto IV storyline, and follow new protagonists.
+
+Development of Grand Theft Auto IV began soon after the release of San Andreas and was shared between many of Rockstar's studios worldwide. The game introduced a shift to a more realistic and detailed style and tone for the series.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="content">
+                        <div class="content-left">
+                            <div class="content-image">
+                                <a href="#">
+                                <img src="/OWN-page/images/images (1).jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="content-right">
+                            <div class="content-title">
+                                <span>
+                                    <a href="#">
+                                        NARUTO SHIPPUDEN
+                                    </a>
+                                </span>
+                            </div>
+                            <div class="content-description">
+                                <span>
+                                    Naruto: Shippuden is an anime television series mainly adapted from Part II of Masashi Kishimoto's original Naruto manga series, with exactly 500 episodes. It is set two and a half years after the original series in the Naruto universe, following the teenage ninja Naruto Uzumaki and his allies. The series is directed by Hayato Date, and produced by Pierrot and TV Tokyo. It began broadcasting on February 15, 2007, on TV Tokyo, and concluded on March 23, 2017.[1][2]
+
+On January 2, 2009, Viz Media and Crunchyroll provided eight English subtitled Naruto: Shippuden episodes on the official Naruto website.[3] Later the following 2 weeks, Viz began providing subtitled versions of the latest Naruto: Shippuden episodes a week after they first aired in Japan, with a new episode being added to the Naruto website each subsequent Thursday.[3] On July 24, 2009, Viz Media announced that the series would be released on the iTunes Store.[4] The first DVD release of the series in North America was released on September 29, 2009.[5] The English dub of Naruto: Shippuden made its US premiere on Disney XD on October 28, 2009. Naruto: Shippuden stopped airing on Disney XD on November 5, 2011, after 98 episodes.[9] The English dub was streamed on the Neon Alley web channel from its launch in October 2012, and beginning December 29 of the same year with episode 99, dubbed episodes premiered every week until March 25, 2016, after 338 episodes, about a month before Neon Alley's closure. Adult Swim's Toonami programming block began airing the anime from the beginning on January 5, 2014, restarting from Episode 1, in an uncut format.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="content-left">
+                            <div class="content-image">
+                                <a href="#">
+                                <img src="/OWN-page/images/Far_Cry_4_box_art.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="content-right">
+                            <div class="content-title">
+                                <span>
+                                    <a href="#">
+                                        FAR CRY 4
+                                    </a>
+                                </span>
+                            </div>
+                            <div class="content-description">
+                                <span>
+                                    Far Cry 4 is a 2014 first-person shooter game developed by Ubisoft Montreal and published by Ubisoft. It is the successor to the 2012 video game Far Cry 3, and the fourth main installment in the Far Cry series. Set in the fictional Himalayan country of Kyrat, the game follows Ajay Ghale, a young Kyrati-American, who becomes caught in a civil war between Kyrat's Royal Army, controlled by the tyrannical king Pagan Min, and a rebel movement called the Golden Path. The gameplay focuses on combat and open world exploration; players battle enemy soldiers and dangerous wildlife using a wide array of weapons. The game features many elements found in role-playing games, such as a branching storyline and side quests. The game also features a map editor and both cooperative and competitive multiplayer modes.
+
+Announced in May 2014, development on Far Cry 4 began immediately after the shipment of Assassin's Creed III in late 2012. The team originally intended to develop a direct sequel to Far Cry 3 that continues the narrative, but the idea was later scrapped and the team decided to develop a new setting and story for the game. Certain aspects of Far Cry 4 were inspired by the Nepalese Civil War, and the design of the game's antagonist Pagan Min was inspired by Japanese films Ichi the Killer and Brother.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="content-left">
+                            <div class="content-image">
+                                <a href="#">
+                                <img src="/OWN-page/images/images (2).jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="content-right">
+                            <div class="content-title">
+                                <span>
+                                    <a href="#">
+                                        YOUR NAME
+                                    </a>
+                                </span>
+                            </div>
+                            <div class="content-description">
+                                <span>
+                                    Your Name (Japanese: 君の名は。, Hepburn: Kimi no Na wa.), stylized as your name., is a 2016 Japanese animated romantic fantasy film written and directed by Makoto Shinkai, produced by CoMix Wave Films, and distributed by Toho. It depicts the story of high school students Taki Tachibana and Mitsuha Miyamizu, who suddenly began to swap bodies despite having never met, unleashing chaos on each other's lives. The film was inspired by the frequency of natural disasters in Japan.
+
+Your Name premiered at the 2016 Anime Expo in Los Angeles on July 3, 2016, and was theatrically released in Japan on August 26, 2016; it was released internationally by several distributors in 2017. It features the voices of Ryunosuke Kamiki and Mone Kamishiraishi, with animation direction by Masashi Ando, character design by Masayoshi Tanaka, and its orchestral score and soundtrack composed by Radwimps. A light novel of the same name, also written by Shinkai, was published a month prior to the film's premiere.
+
+The film received widespread critical acclaim, with praise for its story, animation, music, visuals, and emotional weight. Grossing over US$400 million worldwide after rerelease, it became the second highest-grossing Japanese film of all time, breaking numerous box office records, unadjusted for inflation. It dethroned Hayao Miyazaki's Oscar-winning anime Spirited Away by earning $400 million after rerelease, becoming the second highest-grossing Japanese animated film, behind Demon Slayer: Kimetsu no Yaiba – The Movie: Mugen Train's $507 million worldwide collection. It received several accolades, including the Best Animated Feature at the 2016 Los Angeles Film Critics Association Awards, the 49th Sitges Film Festival, and the 71st Mainichi Film Awards.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="content-left">
+                            <div class="content-image">
+                                <a href="#">
+                                <img src="/OWN-page/images/images (3).jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="content-right">
+                            <div class="content-title">
+                                <span>
+                                    <a href="#">
+                                        SUZUME
+                                    </a>
+                                </span>
+                            </div>
+                            <div class="content-description">
+                                <span>
+                                    Suzume (Japanese: すずめの戸締まり, Hepburn: Suzume no Tojimari, lit. 'Suzume's Locking Up') is a 2022 Japanese animated coming-of-age fantasy adventure film written and directed by Makoto Shinkai. The film follows 17-year-old high school girl Suzume Iwato and young stranger Souta Munakata, who team up to prevent a series of disasters across Japan by sealing doors from the colossal, supernatural worm that causes earthquakes after being released.
+
+                                    Produced by CoMix Wave Films, it features the voices of Nanoka Hara and Hokuto Matsumura, with character designs by Masayoshi Tanaka, animation direction by Kenichi Tsuchiya, art direction by Takumi Tanji, and its musical score was composed by Radwimps and Kazuma Jinnouchi, making it Shinkai's third collaboration with Tanaka and Radwimps, after Your Name (2016) and Weathering with You (2019). The film began production in early 2020, eventually being announced as completed by October 2022. Its themes were inspired by the 2011 Tōhoku earthquake and tsunami. A novel adaptation, also written by Shinkai, and a manga series illustrated by Denki Amashima both debuted prior to the film's release.
+                                    
+                                    Suzume first premiered in IMAX in Japan on November 7, 2022, followed by a theatrical release by Toho on November 11. It received largely positive reviews from critics, with praise directed towards the characters, animation, visuals, music, and emotional story. The film grossed over US$316 million worldwide, making it the fourth highest-grossing Japanese film of all time as well as the fourth highest grossing film of 2022 in Japan. Among its numerous accolades, the film was nominated for Best Animated Feature at the 81st Golden Globe Awards.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="left-content-area">
+                    <div class="tool-area">
+                        <div class="searchbox">
+                            <div class="search-text">
+                                <input type="text" placeholder="Type To Search">
+                            </div>
+                            <div class="search-icon">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                        </div>
+                        <div class="minimap">
+                            <div class="mini-content">
+                                <div class="mini-pic">
+                                    <a href="#"><img src="/OWN-page/images/images (4).jpg"></a>
+                                </div>
+                                <div class="mini-description">
+                                    <a href="#"><h1> 5 CM PER SECOND</h1></a>
+                                    <p>Parents need to know that 5 Centimeters Per Second is a 2007 anime drama-romance in which two tweens who experience first love slowly drift apart as <a href="#" style="color: blue;"> Read More... </a></p>
+                                </div>
+                            </div>
+                            <div class="mini-content">
+                                <div class="mini-pic">
+                                    <a href="#"><img src="/OWN-page/images/0_-39YDA5ghsLXTO7X.jpg"></a>
+                                </div>
+                                <div class="mini-description">
+                                    <a href="#"><h1> I WANT TO EAT YOUR PANCREAS </h1></a>
+                                    <p>I Want to Eat Your Pancreas is a 2018 Japanese animated best coming-of-age drama film based on the light novel of the same name by Yoru Sumino <a href="#" style="color: blue;"> Read More... </a></p>
+                                </div>
+                            </div>
+                            <div class="mini-content">
+                                <div class="mini-pic">
+                                    <a href="#"><img src="/OWN-page/images/images (6).jpg"></a>
+                                </div>
+                                <div class="mini-description">
+                                    <a href="#"><h1> GRAND THEFT AUTO VI</h1></a>
+                                    <p>Grand Theft Auto VI is an upcoming action game in development by Rockstar Games. It is due to be the eighth main Grand Theft Auto game, following GTA V  <a href="#" style="color: blue;"> Read More... </a></p>
+                                </div>
+                            </div>
+                            <div class="mini-content">
+                                <div class="mini-pic">
+                                    <a href="#"><img src="/OWN-page/images/4MxzDZKZwtEWyMWZghvwd7bQ.jpg"></a>
+                                </div>
+                                <div class="mini-description">
+                                    <a href="#"><h1> FAR CRY 6</h1></a>
+                                    <p>Far Cry 6 is a 2021 first-person shooter game developed by Ubisoft Toronto and published by Ubisoft. It is the sixth main installment in the Far Cry series and the<a href="#" style="color: blue;"> Read More... </a></p>
+                                </div>
+                            </div>
+                            <div class="mini-content">
+                                <div class="mini-pic">
+                                    <a href="#"><img src="/OWN-page/images/MV5BZTEyYzVjYjEtNWYzZi00NWRhLTgyZjUtNDlkZjBiNWIxYTEwXkEyXkFqcGc@._V1_.jpg"></a>
+                                </div>
+                                <div class="mini-description">
+                                    <a href="#"><h1> STREE 2 </h1></a>
+                                    <p>Stree 2: Sarkate Ka Aatank (transl. Woman 2: Terror of the Headless) is a 2024 Indian Hindi-language comedy horror film directed by Amar Kaushik, written by Niren Bhatt <a href="#" style="color: blue;"> Read More... </a></p>
+                                </div>
+                            </div>
+                            <div class="mini-content">
+                                <div class="mini-pic">
+                                    <a href="#"><img src="/OWN-page/images/bbb.jpg"></a>
+                                </div>
+                                <div class="mini-description">
+                                    <a href="#"><h1> WEATHRING WITH YOU</h1></a>
+                                    <p>Weathering with You (Japanese: 天気の子, Hepburn: Tenki no Ko, lit. 'Child of Weather') is a 2019 Japanese animated romantic fantasy film written and <a href="#" style="color: blue;"> Read More... </a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="thanks">
+                            <span>THANKS</span><BR>
+                            <span>FOR</span><BR>
+                            <span>CHOOSING</span><BR>
+                            <span>US</span><BR>
+                        </div>
+                        <div class="secret" id="myBtn">
+                            <button class="secret-btn" onclick="subscribe()"> SUBSCRIBE</button>
+                        </div>
+                        <div class="subscribe" id="subscribe">
+                            <span> ENTER YOUR EMAIL FOR SUBSCRIBING</span><br>
+                            <form>
+                                <label for="emailid"> Email Address : </label><br>
+                                <div class="form-input">
+                                    <input type="email" id="emailid" placeholder="someone@gmail.com">
+                                </div>
+                                <input type="checkbox" id="checkmsg">
+                                <label for="checkmsg">Receive New Updates From Our Site</label><br><br>
+                                <input type="checkbox" id="checkmsg1">
+                                <label for="checkmsg1">Yes, I'm 18+</label><br><br>
+                                    <div class="subscribe-submit">
+                                        <button> Submit</button>
+                                    </div>
+                            </form>
+                        </div>
+
+                        <div class="thankyou">
+                            <img src="/OWN-page/images/thank-you-emoji-illustration_23-2151345547.avif">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="media-content">
+                <div class="media-mini-content">
+                    <div class="content-left">
+                        <div class="content-image">
+                            <a href="#">
+                            <img src="/OWN-page/images/images.jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="content-right">
+                        <div class="content-title">
+                            <span>
+                                <a href="#">
+                                    GRAND THEFT AUTO IV
+                                </a>
+                            </span>
+                        </div>
+                        <div class="content-description">
+                            <span>
+                                Grand Theft Auto IV is a 2008 action-adventure game developed by Rockstar North and published by Rockstar Games. It is the sixth main entry in the Grand Theft Auto series, following 2004's Grand Theft Auto: San Andreas, and the eleventh entry overall. Set in the fictional Liberty City, based on New York City, the single-player story follows Eastern European war veteran Niko Bellic and his attempts to escape his past while under pressure from high-profile criminals.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="media-mini-content">
+                    <div class="content-left">
+                        <div class="content-image">
+                            <a href="#">
+                            <img src="/OWN-page/images/images (1).jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="content-right">
+                        <div class="content-title">
+                            <span>
+                                <a href="#">
+                                    NARUTO SHIPPUDEN
+                                </a>
+                            </span>
+                        </div>
+                        <div class="content-description">
+                            <span>
+                                Naruto: Shippuden is an anime television series mainly adapted from Part II of Masashi Kishimoto's original Naruto manga series, with exactly 500 episodes. It is set two and a half years after the original series in the Naruto universe, following the teenage ninja Naruto Uzumaki and his allies. The series is directed by Hayato Date, and produced by Pierrot and TV Tokyo. It began broadcasting on February 15, 2007, on TV Tokyo, and concluded on March 23, 2017.[1][2]
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="media-mini-content">
+                    <div class="content-left">
+                        <div class="content-image">
+                            <a href="#">
+                            <img src="/OWN-page/images/Far_Cry_4_box_art.jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="content-right">
+                        <div class="content-title">
+                            <span>
+                                <a href="#">
+                                    FAR CRY 4
+                                </a>
+                            </span>
+                        </div>
+                        <div class="content-description">
+                            <span>
+                                Far Cry 4 is a 2014 first-person shooter game developed by Ubisoft Montreal and published by Ubisoft. It is the successor to the 2012 video game Far Cry 3, and the fourth main installment in the Far Cry series. Set in the fictional Himalayan country of Kyrat, the game follows Ajay Ghale, a young Kyrati-American, who becomes caught in a civil war between Kyrat's Royal Army, controlled by the tyrannical king Pagan Min, and a rebel movement called the Golden Path.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="media-mini-content">
+                    <div class="content-left">
+                        <div class="content-image">
+                            <a href="#">
+                            <img src="/OWN-page/images/images (2).jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="content-right">
+                        <div class="content-title">
+                            <span>
+                                <a href="#">
+                                    YOUR NAME
+                                </a>
+                            </span>
+                        </div>
+                        <div class="content-description">
+                            <span>
+                                Your Name (Japanese: 君の名は。, Hepburn: Kimi no Na wa.), stylized as your name., is a 2016 Japanese animated romantic fantasy film written and directed by Makoto Shinkai, produced by CoMix Wave Films, and distributed by Toho. It depicts the story of high school students Taki Tachibana and Mitsuha Miyamizu, who suddenly began to swap bodies despite having never met, unleashing chaos on each other's lives. The film was inspired by the frequency of natural disasters in Japan.
+                        </div>
+                    </div>
+                </div>
+                <div class="media-mini-content">
+                    <div class="content-left">
+                        <div class="content-image">
+                            <a href="#">
+                            <img src="/OWN-page/images/images (3).jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="content-right">
+                        <div class="content-title">
+                            <span>
+                                <a href="#">
+                                    SUZUME
+                                </a>
+                            </span>
+                        </div>
+                        <div class="content-description">
+                            <span>
+                                Suzume (Japanese: すずめの戸締まり, Hepburn: Suzume no Tojimari, lit. 'Suzume's Locking Up') is a 2022 Japanese animated coming-of-age fantasy adventure film written and directed by Makoto Shinkai. The film follows 17-year-old high school girl Suzume Iwato and young stranger Souta Munakata, who team up to prevent a series of disasters across Japan by sealing doors from the colossal, supernatural worm that causes earthquakes after being released.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-small" style="margin-top: 0px;">
+                    <div class="content-small-image">
+                        <img src="/OWN-page/images/maxresdefault.jpg">
+                    </div>
+                    <div class="small-content-title"> GRAND THEFT AUTO IV</div>
+                </div>
+
+                <div class="content-small">
+                    <div class="content-small-image">
+                        <img src="/OWN-page/images/3f283002b47c62b1e5d311c45f95c97e.avif">
+                    </div>
+                    <div class="small-content-title"> NARUTO SHIPPUDEN </div>
+                </div>
+                <div class="content-small">
+                    <div class="content-small-image">
+                        <img src="/OWN-page/images/FC4_STD_Edition_Capsule_1920X1080-1920x1080-9a994fc970e32d3eaa8b54612112b466182ab521.jpg">
+                    </div>
+                    <div class="small-content-title"> FAR CRY 4</div>
+                </div>
+                <div class="content-small">
+                    <div class="content-small-image">
+                        <img src="/OWN-page/images/Your-name.avif">
+                    </div>
+                    <div class="small-content-title"> YOUR NAME</div>
+                </div>
+                <div class="content-small">
+                    <div class="content-small-image">
+                        <img src="/OWN-page/images/images (7).jpg">
+                    </div>
+                    <div class="small-content-title"> SUZUME </div>
+                </div>
+            </div>
+        </div>
+
+            <div class="pages">
+                <ul>
+                    <li><a href="#"><<</a></li>
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">>></a></li>
+                </ul>
+            </div>
+    </main>
+    
+    <footer>
+        <div class="footer">
+            <div class="social-app">
+                <div class="picture">
+                    <div class="social-pic">
+                        <img src="/OWN-page/images/pngwing.com (8).png">
+                        <img src="/OWN-page/images/pngwing.com (3).png">
+                        <img src="/OWN-page/images/pngwing.com (6).png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
