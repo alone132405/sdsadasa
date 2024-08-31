@@ -58,8 +58,8 @@
 /*center area*/
 main{
     margin-top: 60px;
-    padding: 20px 60px 20px 60px;
-    background-image: url(/Youtube/images/wallpapersden.com_naruto-uzumaki-art-22_1280x720.jpg);
+    padding: 0px 60px 20px 60px;
+    background-image: url(wallpapersden.com_naruto-uzumaki-art-22_1280x720.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
