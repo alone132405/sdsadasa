@@ -5,6 +5,15 @@
     padding: 0px;
 }
 
+.media-nav{
+    display: none;
+}
+.media-nav-left{
+    display: none;
+}
+.menu2{
+    display: none;
+}
 .normal-nav{
     display: flex;
     align-items: center;
@@ -424,9 +433,19 @@ main{
 .contents{
     margin-top: 60px;
 }
-
+.media-nav{
+    display: none;
+}
+.menu2{
+    display: none;
+}
 @media (min-width: 1200px) and (max-width: 1300px){
-
+    .media-nav-left{
+        display: none;
+    }
+    .menu2{
+        display: none;
+    }
     .nav2{
         display: none;
     }
