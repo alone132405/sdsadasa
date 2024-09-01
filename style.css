@@ -6,6 +6,7 @@
 }
 a{
     text-decoration: none;
+    color: black;
 }
 a:visited{
     color: black;
@@ -49,11 +50,13 @@ a:visited{
     list-style-type: none;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
+    color: black;
 }
 .nav-content li{
     padding: 15px 20px 15px 20px;
     cursor: pointer;
     transition: background-color 0.1s ease-in-out;
+    color: black;
 }
 .nav-content li:hover{
     background-color: black;
@@ -62,12 +65,14 @@ a:visited{
 .nav-content li:hover a:visited{
     color: white;
 }
-
+.nav-content li a{
+    color: black;
+}
 /*center area*/
 main{
     margin-top: 60px;
     padding: 20px 60px 20px 60px;
-    background-image: url(wallpapersden.com_naruto-uzumaki-art-22_1280x720.jpg);
+    background-image: url(/OWN-page/images/wallpapersden.com_naruto-uzumaki-art-22_1280x720.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
