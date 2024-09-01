@@ -4,7 +4,9 @@
     margin: 0px;
     padding: 0px;
 }
-
+a{
+    text-decoration: none;
+}
 .media-nav{
     display: none;
 }
@@ -58,7 +60,7 @@
 /*center area*/
 main{
     margin-top: 60px;
-    padding: 0px 60px 20px 60px;
+    padding: 20px 60px 20px 60px;
     background-image: url(wallpapersden.com_naruto-uzumaki-art-22_1280x720.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -643,15 +645,13 @@ main{
     .nav4{
         display: none;
     }
-    .content-small{
-        display: none;
-    }
     .contents{
         margin-top: 60px;
     }
     .media-content{
         max-width: 1440px;
         padding: 20px;
+        display: block;
     }
     .media-mini-content{
         display: flex;
@@ -841,6 +841,7 @@ main{
     .media-content{
         max-width: 1440px;
         padding: 20px;
+        display: block;
     }
     .media-mini-content{
         display: flex;
@@ -945,10 +946,16 @@ main{
 
 @media (max-width: 600px){
 
+    .content-small-main{
+        padding: 15px;
+        margin-top: 20px;
+    }
     .content-small{
         width: 100%;
         border-bottom: 1px solid black;
         margin-top: 20px;
+        display: block;
+        cursor: pointer;
     }
     .pages{
         display: none;
@@ -965,6 +972,14 @@ main{
         font-family: roboto, Arial, Helvetica, sans-serif;
         text-align: center;
         padding: 10px;
+        color: black;
+        text-decoration: none;
+    }
+    a{
+        text-decoration: none;
+    }
+    .small-content-title:visited{
+        color: black;
     }
     .footer{
         height: 200px;
@@ -1109,5 +1124,8 @@ main{
     }
     .nav3{
         display: none;
+    }
+    main{
+        padding: 5px 20px 20px 20px;
     }
 }
