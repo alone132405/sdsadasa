@@ -7,6 +7,9 @@
 a{
     text-decoration: none;
 }
+a:visited{
+    color: black;
+}
 .media-nav{
     display: none;
 }
@@ -54,6 +57,9 @@ a{
 }
 .nav-content li:hover{
     background-color: black;
+    color: white;
+}
+.nav-content li:hover a:visited{
     color: white;
 }
 
@@ -513,7 +519,10 @@ main{
 
 @media (min-width: 1000px) and (max-width: 1200px) {
 
-
+    .center-nav{
+        font-family: New amsterdam, Arial, Helvetica, sans-serif;
+        font-size: 30px;
+    }
     .normal-nav{
         display: none;
     }
@@ -641,7 +650,10 @@ main{
 }
 
 @media (min-width: 800px) and (max-width: 1000px){
-
+    .center-nav{
+        font-family: New amsterdam, Arial, Helvetica, sans-serif;
+        font-size: 30px;
+    }
     .nav4{
         display: none;
     }
@@ -794,6 +806,10 @@ main{
     }
 }
 @media (min-width: 600px) and (max-width: 800px){
+    .center-nav{
+        font-family: New amsterdam, Arial, Helvetica, sans-serif;
+        font-size: 30px;
+    }
     .contents{
         margin-top: 60px;
     }
@@ -945,7 +961,10 @@ main{
 }
 
 @media (max-width: 600px){
-
+    .center-nav{
+        font-family: New amsterdam, Arial, Helvetica, sans-serif;
+        font-size: 30px;
+    }
     .content-small-main{
         padding: 15px;
         margin-top: 20px;
